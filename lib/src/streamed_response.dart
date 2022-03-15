@@ -22,7 +22,7 @@ class StreamedResponse extends BaseResponse {
       {int? contentLength,
       BaseRequest? request,
       Map<String, String> headers = const {},
-      String url,
+      String? url,
       bool isRedirect = false,
       bool persistentConnection = true,
       String? reasonPhrase})

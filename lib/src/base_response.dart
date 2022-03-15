@@ -30,7 +30,7 @@ abstract class BaseResponse {
   final Map<String, String> headers;
 
   /// The url of the final response(possibly after redirections).
-  final String url;
+  final String? url;
 
   final bool isRedirect;
 

@@ -22,6 +22,7 @@ class StreamedResponse extends BaseResponse {
       {int? contentLength,
       BaseRequest? request,
       Map<String, String> headers = const {},
+      String url,
       bool isRedirect = false,
       bool persistentConnection = true,
       String? reasonPhrase})
@@ -29,6 +30,7 @@ class StreamedResponse extends BaseResponse {
         super(statusCode,
             contentLength: contentLength,
             request: request,
+            url: url,
             headers: headers,
             isRedirect: isRedirect,
             persistentConnection: persistentConnection,

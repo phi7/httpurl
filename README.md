@@ -100,3 +100,4 @@ and increases the delay by 1.5x each time. All of this can be customized using
 the [`RetryClient()`][new RetryClient] constructor.
 
 [new RetryClient]: https://pub.dev/documentation/http/latest/retry/RetryClient/RetryClient.html
+# httpurl
